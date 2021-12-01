@@ -1,0 +1,131 @@
+:root{
+    --primary-color: #7e80f5;
+    --dark-gray: #9fa8a3;
+    --off-white: #f8f8ff;
+}
+
+body{
+    font-family: 'montserrat',
+    sans-serif;
+    margin: 0px
+}
+ 
+.container {
+padding-left: 1rem;
+padding-right: 1rem;
+}
+.container-center {
+    max-width: 600px;
+    margin: auto;
+}
+
+
+
+.primary-link {
+    background-color: var(--primary-color);
+    background: #7e80f5;
+    border-radius: 0.5rem;
+    color: white;
+    padding: 0.5rem;
+    text-decoration: none;
+}
+.secondary-link {
+    color: var(--primary-color);
+    border-radius: 00.5rem;
+    border: 1px solid var(--primary-color);
+    padding: 0.5rem;
+    text-decoration: none;
+}
+
+   
+ .navigation {
+     background-color: var(--primary-color);
+     color: white;
+     padding: 1rem 1rem;
+     border-bottom-left-radius: 1rem;
+     
+ } 
+
+.navigation .your-post {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+ .navigation .inline-elements .abc {
+     text-align: right;
+     display: inline;
+     text-align: end;
+     padding: 1rem;
+ }
+
+ .navigation .link {
+     color:white ;
+   text-decoration: none;
+  
+   
+ }  
+
+
+ /** header **/
+ .hero{
+     padding: 2rem;
+ }
+.hero .hero-img{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading{
+    text-align: center;
+    padding-top: 1rem;
+    color: var(--dark-gray);
+}
+.hero .hero-heading .heading-inverted{
+    color: var(--primary-color);
+
+ }
+
+ /** sections...... **/
+ .section  {
+     
+     padding: 2rem;
+ }
+section h1{
+    text-align: center;
+}
+.section ow{
+     background-color: var(--off-white);
+
+}
+
+/** footer **/
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem ;
+}
+
+
+.footer .footer-list {
+    padding: 1rem;
+    text-decoration: solid;
+   
+    
+}
+
+.footer .footer-list .foot-inline-list  {
+    display: inline;
+    margin: 0 1rem;
+    text-decoration: none;
+    text-align: end;
+    font-weight: bold;
+}
+
+.footer .footer-list .foot-inline-list .link {
+    text-decoration: none;
+    text-align: end;
+    font-weight: bold;
+}
