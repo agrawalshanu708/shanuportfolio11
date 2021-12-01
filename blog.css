@@ -1,0 +1,43 @@
+:root{
+    --primary-color: #7e80f5;
+    --dark-gray: #9fa8a3;
+    --off-white: #f8f8ff;
+}
+
+body{
+    font-family: 'montserrat',
+    sans-serif;
+    margin: 0px
+}
+
+
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem 1rem;
+    border-bottom-left-radius: 1rem;
+    
+} 
+
+.navigation .your-post {
+   font-weight: bold;
+   font-size: 1.1rem;
+}
+
+.navigation .inline-elements .abc {
+    text-align: right;
+    display: inline;
+    text-align: end;
+    padding: 1rem;
+}
+
+.navigation .link {
+    color:white ;
+    text-decoration: none;
+
+}
+
+.container {
+    background-color: white;
+}
+
