@@ -10,17 +10,6 @@ body{
     margin: 0px
 }
  
-.container {
-padding-left: 1rem;
-padding-right: 1rem;
-}
-.container-center {
-    max-width: 600px;
-    margin: auto;
-}
-
-
-
 .primary-link {
     background-color: var(--primary-color);
     background: #7e80f5;
@@ -36,34 +25,29 @@ padding-right: 1rem;
     padding: 0.5rem;
     text-decoration: none;
 }
-
-   
- .navigation {
+nav {
      background-color: var(--primary-color);
      color: white;
      padding: 1rem 1rem;
      border-bottom-left-radius: 1rem;
-     
- } 
+} 
 
-.navigation .your-post {
+nav .your-post {
     font-weight: bold;
     font-size: 1.1rem;
 }
 
- .navigation .inline-elements .abc {
+ nav .inline-elements .abc {
      text-align: right;
      display: inline;
      text-align: end;
      padding: 1rem;
  }
 
- .navigation .link {
+ nav .link {
      color:white ;
    text-decoration: none;
-  
-   
- }  
+}  
 
 
  /** header **/
@@ -86,6 +70,15 @@ padding-right: 1rem;
 
  }
 
+ .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    }
+    .container-center {
+        max-width: 600px;
+        margin: auto;
+    }
+    
  /** sections...... **/
  .section  {
      
@@ -94,38 +87,37 @@ padding-right: 1rem;
 section h1{
     text-align: center;
 }
-.section ow{
-     background-color: var(--off-white);
+.section-ow{
+    background-color: var(--off-white);
+    max-width: 600px;
+    margin :auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
 
 }
 
-/** footer **/
 .footer {
     background-color: var(--primary-color);
-    padding: 2rem 1rem;
-    text-align: center;
     color: white;
-    border-top-right-radius: 1rem ;
+    padding: 1rem 1rem;
+    border-top-right-radius: 1rem;
+    margin: 0;
+} 
+
+.footer .footer-heading {
+   font-weight: bold;
+   font-size: 1.1rem;
 }
 
-
-.footer .footer-list {
-    padding: 1rem;
-    text-decoration: solid;
-   
-    
-}
-
-.footer .footer-list .foot-inline-list  {
+.footer .footer-list .foot-inline-list {
+    text-align: right;
     display: inline;
-    margin: 0 1rem;
-    text-decoration: none;
     text-align: end;
-    font-weight: bold;
+    padding: 1rem;
 }
 
-.footer .footer-list .foot-inline-list .link {
+.footer .link {
+    color:white ;
     text-decoration: none;
-    text-align: end;
-    font-weight: bold;
+
 }
