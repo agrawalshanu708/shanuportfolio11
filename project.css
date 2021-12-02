@@ -53,30 +53,26 @@ body{
 
 .footer {
     background-color: var(--primary-color);
-    padding: 2rem 1rem;
-    text-align: center;
     color: white;
-    border-top-right-radius: 1rem ;
-}
-
-
-.footer .footer-list {
-    padding: 1rem;
-    text-decoration: solid;
-   
-    
-}
-
-.footer .footer-list .foot-inline-list  {
-    display: inline;
+    padding: 1rem 1rem;
+    border-top-right-radius: 1rem;
     margin: 0;
-    text-decoration: none;
-    text-align: end;
-    font-weight: bold;
+} 
+
+.footer .footer-heading {
+   font-weight: bold;
+   font-size: 1.1rem;
 }
 
-.footer .footer-list .foot-inline-list .link {
-    text-decoration: none;
+.footer .footer-list .xyz {
+    text-align: right;
+    display: inline;
     text-align: end;
-    font-weight: bold;
+    padding: 1rem;
+}
+
+.footer .link-f {
+    color:white ;
+    text-decoration: none;
+
 }

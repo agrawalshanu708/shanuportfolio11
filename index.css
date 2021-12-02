@@ -109,14 +109,14 @@ section h1{
    font-size: 1.1rem;
 }
 
-.footer .footer-list .foot-inline-list {
+.footer .footer-list .xyz {
     text-align: right;
     display: inline;
     text-align: end;
     padding: 1rem;
 }
 
-.footer .link {
+.footer .link-f {
     color:white ;
     text-decoration: none;
 
